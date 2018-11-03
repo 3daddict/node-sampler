@@ -3,8 +3,13 @@ const express = require('express');
 
 const server = express();
 
-//set default folder if there is not req url match
+const mysql = require('mysql');
 
+const creds = require('./mysqlcreds.js');
+
+const db = creds;
+
+//set default folder if there is not req url match
 server.use( express.static(__dirname + '/html') ) //whatever the dirname add on html folder to serve files inside
 
 //example endpoint for page url
