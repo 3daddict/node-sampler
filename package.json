@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/3daddict/node-sampler/issues"
   },
-  "homepage": "https://github.com/3daddict/node-sampler#readme"
+  "homepage": "https://github.com/3daddict/node-sampler#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
